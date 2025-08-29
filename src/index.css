@@ -1,0 +1,159 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	color: rgba(255, 255, 255, 0.87);
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+#profile-image {
+	height: 320px;
+	width: 320px;
+	background-color: lightgray;
+}
+
+#main-container-div {
+	height: 100%;
+}
+
+#card {
+	display: flex;
+	flex-direction: column;
+	background-color: #1a1b21;
+	width: 320px;
+	height: 780px;
+	margin: auto;
+	border-radius: 0.5rem;
+	box-shadow: 0px 0px 15px black;
+	overflow: hidden;
+}
+
+#title {
+	font-size: 0.8rem;
+	font-weight: 400;
+	color: #f3bf99;
+	margin: 0.38rem 0px 0px 0px;
+	padding: 0px;
+}
+
+#name {
+	margin-top: 1.31rem;
+	margin-bottom: 0px;
+	padding: 0px;
+	line-height: normal;
+}
+
+#website-link {
+	text-decoration: none;
+	color: #f5f5f5;
+}
+
+#website-link:hover {
+	cursor: pointer;
+}
+
+.card-btn {
+	width: 115px;
+	height: 34px;
+	border-radius: 6px;
+	border: none;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.email-btn {
+	background-color: #ffffff;
+	color: #1e1f26;
+}
+
+.linkedin-btn {
+	background-color: #5093e2;
+	color: #ffffff;
+}
+
+#contact-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 16px;
+	margin-top: 16px;
+}
+
+p {
+	text-align: left;
+	width: 247px;
+	margin: auto;
+	font-size: 10.24px;
+}
+
+.info-title {
+	text-align: left;
+}
+
+.info-about-title {
+	margin: 36px 0px 0px 0px;
+}
+
+.info-interest-title {
+	margin: 30px 0px 0px 0px;
+}
+
+#info-section {
+	margin: 0 36px 0 36px;
+}
+
+.container-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	place-items: center;
+	vertical-align: middle;
+}
+
+.icon-linkedin {
+	width: 13.33px;
+	height: 13.33px;
+	padding-top: 2px;
+}
+
+.icon-mail {
+	width: 16px;
+	height: 16px;
+	margin-top: 2.15px;
+}
+
+#socials-section {
+	margin-top: 1.5rem;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+	height: 64px;
+	background-color: #161619;
+}
+
+.icon {
+	width: 25px;
+	height: 25px;
+	padding: 0px;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	color: #918e9b;
+}
+
+.social-link:hover {
+	cursor: pointer;
+}
