@@ -6,7 +6,7 @@ import SocialsSection from "./SocialsSection";
 export default function Card() {
 	return (
 		<div id="card">
-			<img id="profile-image"></img>
+			<img id="profile-image" alt="business card profile picture"></img>
 			<section id="card-section">
 				<HeaderSection />
 				<ContactSection />
