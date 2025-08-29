@@ -6,16 +6,28 @@ import { FaSquareGithub } from "react-icons/fa6";
 export default function SocialSection() {
 	return (
 		<section id="socials-section">
-			<a className="social-link" href="#">
+			<a
+				className="social-link"
+				href="#"
+				aria-label="link to a twitter account"
+			>
 				<FaSquareTwitter className="icon" />
 			</a>
-			<a className="social-link" href="#">
+			<a
+				className="social-link"
+				href="#"
+				aria-label="link to a facebook account"
+			>
 				<FaSquareFacebook className="icon" />
 			</a>
-			<a className="social-link" href="#">
+			<a
+				className="social-link"
+				href="#"
+				aria-label="link to a instagram account"
+			>
 				<FaSquareInstagram className="icon" />
 			</a>
-			<a className="social-link" href="#">
+			<a className="social-link" href="#" aria-label="link to a github account">
 				<FaSquareGithub className="icon" />
 			</a>
 		</section>
